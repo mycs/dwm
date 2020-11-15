@@ -17,7 +17,7 @@ static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
 static char *fonts[]          = { "SourceCodePro-ExtraLight:size=12",
   "Sauce Code Pro ExtraLight Nerd Font Complete:pixelsize=12:antialias=true:autohint=true",
-  "JoyPixels:pixelsize=10:antialias=true:autohint=true"
+  /* "JoyPixels:pixelsize=10:antialias=true:autohint=true" */
 };
 static char normbgcolor[]           = "#222222";
 static char normbordercolor[]       = "#444444";
