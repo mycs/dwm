@@ -16,8 +16,8 @@ static int smartgaps          = 1;        /* 1 means no outer gap when there is 
 static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
 static char *fonts[]          = { "SourceCodePro-ExtraLight:size=12",
-  "JoyPixels:pixelsize=12:antialias=true:autohint=true",
-  "Sauce Code Pro ExtraLight Nerd Font Complete:pixelsize=12:antialias=true:autohint=true",
+  "JoyPixels:pixelsize=14:antialias=true:autohint=true",
+  "Sauce Code Pro ExtraLight Nerd Font Complete:pixelsize=14:antialias=true:autohint=true",
 };
 static char normbgcolor[]           = "#222222";
 static char normbordercolor[]       = "#444444";
@@ -60,7 +60,7 @@ static const Rule rules[] = {
 };
 
 /* layout(s) */
-static float mfact     = 0.55; /* factor of master area size [0.05..0.95] */
+static float mfact     = 0.60; /* factor of master area size [0.05..0.95] */
 static int nmaster     = 1;    /* number of clients in master area */
 static int resizehints = 1;    /* 1 means respect size hints in tiled resizals */
 #define FORCE_VSPLIT 1  /* nrowgrid layout: force two clients to always split vertically */
